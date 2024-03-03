@@ -1,0 +1,97 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Madimi One", sans-serif;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.best-score {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: #fff;
+}
+
+.start-game {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  padding: 10px 30px;
+  justify-content: center;
+  background-color: #fff;
+  gap: 50px;
+  border-radius: 10px;
+}
+.start-game button {
+  height: 50px;
+  background-color: green;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.finish-game {
+  display: none;
+  flex-direction: column;
+  height: 300px;
+  padding: 10px 30px;
+  justify-content: center;
+  background-color: #fff;
+  gap: 20px;
+  border-radius: 10px;
+}
+.finish-game button {
+  height: 50px;
+  background-color: green;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.finish-game button:last-child {
+  background-color: orangered;
+}
+
+.container {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  /* height: 50%; */
+  padding: 30px 60px;
+  border-radius: 10px;
+  max-width: 600px;
+}
+
+.container h2 {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.option-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 50px;
+  width: 100%;
+}
+
+.option-container button {
+  text-align: start;
+  width: 100%;
+  padding: 15px 20px;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: #fff;
+  font-size: 1rem;
+}
